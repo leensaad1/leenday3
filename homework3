@@ -1,0 +1,54 @@
+public class Main {
+    public static void main(String[] args) {
+
+        //Q1
+        for (int i = 1; i <= 100 ; i++) {
+            if ( i%2 == 0 ) {
+                System.out.println( i + " positive number");
+            }
+            else
+                System.out.println( i );
+        }//end for
+
+        System.out.println();
+        
+        //Q2
+        for (int j = 1; j <= 100 ; j++) {
+            if (j % 2 == 0) {
+                continue;
+            }//end if
+            System.out.println(j);
+        }//end for
+
+        System.out.println();
+
+        //Q3
+        for (int x = 1; x <= 10 ; x++) {
+            System.out.println(x);
+            if ( x == 4 ){
+                break;
+            }//end if
+        }//end for
+
+        System.out.println();
+
+        //Q4
+        String name = "leen" ;
+        for (int i = 0 ; i <= name.length()-1 ; i++) {
+            System.out.println(name.charAt(i) );
+        }//end for
+
+        System.out.println();
+
+        //Q5
+        name = "leen" ;
+        for (int i = name.length()-1 ; i >= 0 ; i--) {
+            System.out.println(name.charAt(i) );
+        }//end for
+
+
+
+    }//end main
+}//end class
+
+//for (int i = name.charAt('l') ; i <= name.charAt('n') ; i++)
