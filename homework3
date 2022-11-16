@@ -4,7 +4,7 @@ public class Main {
         //Q1
         for (int i = 1; i <= 100 ; i++) {
             if ( i%2 == 0 ) {
-                System.out.println( i + " positive number");
+                System.out.println( i + " even number ");
             }
             else
                 System.out.println( i );
