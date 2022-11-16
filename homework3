@@ -51,4 +51,4 @@ public class Main {
     }//end main
 }//end class
 
-//for (int i = name.charAt('l') ; i <= name.charAt('n') ; i++)
+
